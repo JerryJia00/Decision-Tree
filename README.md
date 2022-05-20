@@ -17,3 +17,7 @@ GrowTree(S )
     return new node(j, k, GrowTree(S_left), GrowTree(S_right))
 }
 ```
+#Validation
+I used the Titanic data to test my implementation of Decision tree and Random forest.
+For decision tree, the training accuracy is 0.84 and the Validation accuracy is 0.8
+For random forest, the training accuracy is 0.78 and the Validation accuracy is 0.83
